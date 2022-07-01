@@ -1,5 +1,5 @@
 # Project information
-site_name: LM_NLP_NEP_Project
+site_name: LM_NLP_NER_Project
 # defeine TOC or order of website-
 nav:
   - Home: index.md
@@ -9,8 +9,8 @@ site_description: >-
   DESCRIPTION
 
 # Repository
-repo_name: lmohan171/LM_NLP_NEP_Project
-repo_url: https://github.com/lmohan171/LM_NLP_NEP_Project
+repo_name: lmohan171/LM_NLP_NER_Project
+repo_url: https://github.com/lmohan171/LM_NLP_NER_Project
 
 # Configuration
 theme:
@@ -68,4 +68,4 @@ plugins:
   - search
 
 copyright: |
-  &copy; 2022 <a href="lmohan171/LM_NLP_NEP_Project"  target="_blank" rel="noopener"> Lait Mohan</a>
+  &copy; 2022 <a href="lmohan171/LM_NLP_NER_Project"  target="_blank" rel="noopener"> Lait Mohan</a>
