@@ -3,14 +3,17 @@ echo [$(date)]: "creating environment"
 conda create --prefix ./env python=3.7 -y
 echo [$(date)]: "activate environment"
 source activate ./env
+echo [$(date)]: "create folder and file structure"
+#shell scrip
+for DIR in data_ingestion data_preparation data_validation model model_eval model_trainer
+do
+    echo 'Creating', src/'NER_'$DIR
+    mkdir -p src/'NER_'$DIR
+done
 echo [$(date)]: "install requirements"
 pip install -r requirements.txt
 echo [$(date)]: "export conda environment"
-conda env export > conda.yaml
-echo "# ${PWD}" > README.md
-echo [$(date)]: "first commit"
-git add .
-git commit -m "first commit"
+
 echo [$(date)]: "END"
 
 # to remove everything -
