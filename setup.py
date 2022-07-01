@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as f:
     long_description = f.read()
 
 ## edit below variables as per your requirements -
-REPO_NAME = "REPO_NAME"
+REPO_NAME = "LM_NLP_NER_Project"
 AUTHOR_USER_NAME = "lmohan171"
 SRC_REPO = "src"
 LIST_OF_REQUIREMENTS = []
@@ -13,7 +13,7 @@ LIST_OF_REQUIREMENTS = []
 setup(
     name=SRC_REPO,
     version="0.0.1",
-    author=lmohan171/LM_NLP_NER_Project,
+    author=lmohan171,
     description="A small package for DVC",
     long_description=long_description,
     long_description_content_type="text/markdown",
